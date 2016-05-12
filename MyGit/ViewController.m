@@ -17,6 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+ 
+    
+    // 显示所有隐藏文件
+//    defaults write com.apple.finder AppleShowAllFiles Yes && killall Finder
+    
+    self.view.backgroundColor = [UIColor redColor];
 }
 
 - (void)didReceiveMemoryWarning {
